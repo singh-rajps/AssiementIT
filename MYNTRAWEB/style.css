@@ -1,0 +1,30 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    width: 23px;
+    height: 23px;
+    
+    
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.items-content{
+    align-items: center;
+}
+.justifiy-center{
+    justify-content: center;
+}
+nav ul li{
+
+}
