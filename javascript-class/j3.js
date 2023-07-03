@@ -1,3 +1,36 @@
+/******************************************************/
+/*                  Booleans                          */
+/******************************************************/
+
+
+let something = []
+
+if (something){
+    console.log('Yes it is True')
+}
+else{
+    console.log('It is False')
+}
+
+/* 
+Truthy Values
+    1. Any number  except 0, Whether it is +ve or -ve are truthy values
+    2. Any Non-empty String
+    3. Boolean with true
+    4. if any Array length is not Zero
+
+Falsy Values
+    1. 0
+    2. ''
+    3. NaN
+    4. Undefined
+    5. null
+    6. false
+
+*/
+
+
+
 //Logical Operators
 
 let a = 10;
@@ -34,4 +67,4 @@ console.log(count--);
 
 
 //Ternary Operators
-count > 0 ? console.log('The Num is +ve'):
+//count > 0 ? console.log('The Num is +ve'):
