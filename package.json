@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-concurrency-demo",
+  "version": "1.0.0",
+  "description": "Node.js Event Loop and Concurrency Demonstration",
+  "main": "event-loop-demo.js",
+  "scripts": {
+    "demo:event-loop": "node event-loop-demo.js",
+    "demo:concurrency": "node concurrency-patterns.js",
+    "demo:workers": "node worker-threads-demo.js",
+    "demo:visualization": "node event-loop-visualization.js",
+    "demo:all": "npm run demo:event-loop && echo '\n---\n' && npm run demo:visualization"
+  },
+  "keywords": ["nodejs", "event-loop", "concurrency", "async"],
+  "author": "",
+  "license": "MIT"
+}
